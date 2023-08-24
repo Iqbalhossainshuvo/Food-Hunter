@@ -1,0 +1,21 @@
+/* CSS for large devices */
+.our-clients .tablet-show,
+.our-clients .mobile-show {
+  display: none;
+}
+
+/* Tablet devices: Show 3 images */
+@media screen and (max-width: 768px) {
+  .our-clients .tablet-show {
+    display: block;
+  }
+}
+
+/* Mobile devices: Show 1 image */
+@media screen and (max-width: 480px) {
+  .our-clients .mobile-show {
+    display: block;
+  }
+}
+
+/* Adjust styles and media queries as needed */
