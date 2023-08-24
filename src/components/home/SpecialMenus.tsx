@@ -14,7 +14,7 @@ interface SpecialMenus {
   image: string;
 }
 
-const specialMenus: SpecialMenus = [
+const specialMenus: SpecialMenus[] = [
   {
     title: 'Pure Ingredients',
     description:

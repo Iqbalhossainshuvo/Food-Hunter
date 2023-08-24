@@ -15,7 +15,7 @@ function InternationalCuisines() {
     image: string;
   }
 
-  const cuisines: Cuisine = [
+  const cuisines: Cuisine[] = [
     {
       title: 'African Cuisines',
       description:

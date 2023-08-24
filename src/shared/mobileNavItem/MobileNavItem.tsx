@@ -1,7 +1,13 @@
 import '../Navbar.css';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 
-const MobileNavItem = ({ detailNav, openDetailNav }) => {
+interface MobileNavItemProps {
+    detailNav: boolean; // Define the type for detailNav
+    openDetailNav: () => void; // Define the type for openDetailNav
+  }
+
+
+const MobileNavItem:React.FC<MobileNavItemProps> = ({ detailNav, openDetailNav }) => {
     return (
         <div className={`detailNav block lg:hidden shadow-lg shadow-gray-300 ${detailNav == true ? 'open_detail' : ''}`}>
             <button

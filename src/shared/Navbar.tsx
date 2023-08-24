@@ -10,7 +10,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
+// import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import MobileNavItem from './mobileNavItem/MobileNavItem';
 import './Navbar.css';
 import MobileNavItem2 from './mobileNavItem/MobileNavItem2';
